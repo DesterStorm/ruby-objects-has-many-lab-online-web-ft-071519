@@ -1,6 +1,5 @@
 class Author 
   attr_accessor :name
-  # , :posts
 
   
   #an array of all the artists:
@@ -17,9 +16,9 @@ class Author
     Post.all.select {|post| post.author == self}
   end
   
-  def author
-    Author.all.select {|author| author.name == self}
-  end
+  # def author
+  #   Author.all.select {|author| author.name == self}
+  # end
   
   def self.all
     @@all
