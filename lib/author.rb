@@ -1,5 +1,6 @@
 class Author 
-  attr_accessor :name, :posts
+  attr_accessor :name
+  # , :posts
 
   
   #an array of all the artists:
