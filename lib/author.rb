@@ -1,7 +1,6 @@
 class Author 
   attr_accessor :name, :posts
-  # , :author
-  # , :title 
+
   
   #an array of all the artists:
   @@all = []
@@ -39,10 +38,7 @@ class Author
   def self.post_count
     @@post_count += 1 + 1
   end
-  
-  def artist_name
-    
-  end
+
   
 end
 
