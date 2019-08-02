@@ -1,7 +1,6 @@
 class Author 
   attr_accessor :name
 
-  
   #an array of all the artists:
   @@all = []
   @@post_count = 0 
